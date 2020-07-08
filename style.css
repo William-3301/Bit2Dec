@@ -1,0 +1,66 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+main div{
+    width: 600px ;
+    height: 500px;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: #4eb7d9;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+#Title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #1C1C1C;
+}
+
+#Subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #363636;
+}
+
+#bits,#number,button{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 3px;
+}
+
+#bits,#number{
+    width: 200px;
+    height: 50px;
+}
+
+#bits{
+    margin-top: 200px;
+}
+
+#number{
+    background-color: white;
+    margin-top: 270px;
+}
+
+#Button{
+    width: 100px;
+    height: 50px;
+    margin-top: 350px;
+}
